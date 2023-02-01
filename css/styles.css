@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://media.cntraveler.com/photos/5a7741d04332805bf105f668/16:9/w_2560,c_limit/Morgan-Library-and-Museum__2018_9.-East-Room-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+#container {
+  margin: 30px auto 10px auto;
+  padding: 0.6em;
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  border: 3px solid rgb(27, 27, 27);
+  border-radius: 10px;
+  background-color: rgb(12, 99, 77);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#quote-div {
+  margin: 40px auto;
+  padding: 1.4em;
+  background-color: rgb(27, 128, 94);
+  border-radius: 10px;
+  display: block;
+  width: 600px;
+  height: 150px;
+  box-shadow: 0 1px 5px;
+}
+
+#quote-p {
+  font-size: 18px;
+}
+
+#quote-heading {
+  margin: 10px auto 0 auto;
+  color: rgb(255, 252, 252);
+  font-weight: 800;
+}
+
+#quote-div button {
+  width: 100px;
+  margin: 24px auto;
+  height: auto;
+  font-size: 18px;
+  background-color: rgb(12, 99, 77);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+#quote-div button:hover {
+  background: linear-gradient(80deg, rgb(114, 19, 177), rgb(13, 46, 117));
+}
