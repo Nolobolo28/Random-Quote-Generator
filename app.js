@@ -51,7 +51,7 @@ let headingAuthor = document.querySelector("#quote-heading");
 let btn = document.querySelector("button");
 
 function findQuote() {
-  let findQuote = Math.floor(Math.random() * quotes.length + 1); // this is selecting a random quote from our array object 
+  let findQuote = Math.floor(Math.random() * quotes.length + 1); // this is generating a random number that is equal of our quote array length
   let quoteString = quotes[findQuote].quote;
   let quoteAuthor = quotes[findQuote].author;
   paragraphQuote.textContent = `"${quoteString}"`;
